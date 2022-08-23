@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0E8D9;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  color: #58595B;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #58595B;
+  margin-bottom: 75px;
+}
+
+.food {
+  background-color: white;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.food .info {
+  padding: 20px;
+  text-align: center;
+}
+
+.food h3 {
+  color: #58595B;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.food p {
+  color: #58595B;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.food a {
+  color: #0000EE;
+  font-size: 16px;
+  text-decoration: none;
+}
