@@ -39,6 +39,10 @@ body {
   border: none;
 }
 
+.submit-btn:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
 .links {
   padding-bottom: 20px;
   text-align: center;
