@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* 모바일 */
+.navbar {
+  background-color: #FF0000;
+  width: 100%;
+  height: 60px;
+}
+
+.banner {
+  background-color: #FFA500;
+  width: 100%;
+  height: 350px;
+}
+
+.info {
+  background-color: #FFFF00;
+  width: 100%;
+  height: 320px;
+}
+
+.img-div1 {
+  background-color: #008000;
+  width: 100%;
+  height: 385px;
+}
+
+.img-div2 {
+  background-color: #0000FF;
+  width: 100%;
+  height: 200px;
+}
+
+.img-div3 {
+  background-color: #4B0082;
+  width: 100%;
+  height: 200px;
+}
+
+/* 타블렛 */
+@media(min-width: 768px) {
+  .col {
+    float: left;
+  }
+
+  .banner {
+    width: 100%;
+    height: 562px;
+  }
+
+  .info {
+    width: 100%;
+    height: 282px;
+  }
+
+  .img-div1 {
+    width: 50%;
+    height: 360px;
+  }
+
+  .img-div2 {
+    width: 50%;
+    height: 180px;
+  }
+
+  .img-div3 {
+    width: 50%;
+    height: 180px;
+  }
+}
+
+/* 데스크탑 */
+
+@media(min-width: 992px) {
+  .col {
+    float: left;
+  }
+
+  .banner {
+    width: 50%;
+    height: 700px;
+  }
+
+  .info {
+    width: 50%;
+    height: 350px;
+  }
+
+  .img-div1 {
+    width: 25%;
+    height: 350px;
+  }
+
+  .img-div2 {
+    width: 25%;
+    height: 175px;
+  }
+
+  .img-div3 {
+    width: 25%;
+    height: 175px;
+  }
+}
