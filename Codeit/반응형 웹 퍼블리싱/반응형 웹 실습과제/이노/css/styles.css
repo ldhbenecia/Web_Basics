@@ -1,47 +1,103 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /* 모바일 */
 .navbar {
-  background-color: #FF0000;
+  background-color: #353535;
   width: 100%;
   height: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 60px;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  color: white;
 }
 
 .banner {
-  background-color: #FFA500;
   width: 100%;
   height: 350px;
+  background-image: url('../images/main_img.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
 .info {
-  background-color: #FFFF00;
   width: 100%;
   height: 320px;
+  background-color: white;
+}
+
+.info .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.info .info-container {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.info .label {
+  font-size: 16px;
+  color: #4A4A4A;
+}
+
+.info h2 {
+  font-size: 20px;
+  color: #1B1B1B;
+}
+
+.info p {
+  font-size: 16px;
+  color: #7A7A7A;
 }
 
 .img-div1 {
-  background-color: #008000;
   width: 100%;
   height: 385px;
+  background-image: url('../images/img1.jpg');
+  background-size: cover;
+  background-position: center top;
 }
 
 .img-div2 {
-  background-color: #0000FF;
   width: 100%;
   height: 200px;
+  background-image: url('../images/img2.jpg');
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+}
+
+.img-div2 .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.img-div2 a {
+  color: white;
+  font-weight: bold;
+  border: 4px solid white;
+  padding: 9px 40px;
+  text-decoration: none;
+  vertical-align: middle;
 }
 
 .img-div3 {
-  background-color: #4B0082;
   width: 100%;
   height: 200px;
+  background-image: url('../images/img3.jpg');
+  background-size: cover;
+  background-position: center top;
 }
 
 /* 타블렛 */
@@ -51,13 +107,16 @@ body {
   }
 
   .banner {
-    width: 100%;
     height: 562px;
   }
 
   .info {
-    width: 100%;
     height: 282px;
+  }
+
+  .info .info-container {
+    padding-left: 65px;
+    padding-right: 65px;
   }
 
   .img-div1 {
