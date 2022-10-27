@@ -3,30 +3,31 @@
   <head>
     <meta charset="utf-8" />
     <title>4번 문제</title>
-		<script>
-		function change() {
-			var str = prompt("HTML 텍스트를 입력바랍니다.");
-			let divtag = document.getElementById("first");
-			
-			if (str == "") {
-				first.innerHTML = "입력 내용이 없습니다."
-			} 
-			else {
-				first.innerHTML = str;
-			}
-			let spanArray = document.getElementsByTagName("span");
-			for (let i = 0; i<spanArray.length; i++) {
-				let span = spanArray[i];
-				span.style.color = "red";
-			}
-		}
-		</script>	
+    <script>
+      function change() {
+        var str = prompt('HTML 텍스트를 입력바랍니다.')
+        let divtag = document.getElementById('first')
+
+        if (str == '') {
+          first.innerHTML = '입력 내용이 없습니다.'
+        } else {
+          first.innerHTML = str
+        }
+        let spanArray = document.getElementsByTagName('span')
+        for (let i = 0; i < spanArray.length; i++) {
+          let span = spanArray[i]
+          span.style.color = 'red'
+        }
+      }
+    </script>
   </head>
   <body>
     <h3>한국외국어대학교</h3>
     <hr />
     <div>
-      <div id="first" onclick="change()" style="color: blue">여기를 클릭하세요</div>
+      <div id="first" onclick="change()" style="color: blue">
+        여기를 클릭하세요
+      </div>
       <p><span>진리(眞理)</span> : 우리의 삶을 비추며 이끄는 참된 이치</p>
       <p>
         <span>평화(平和)</span> : 개인과 개인 사이, 민족과 민족 사이, 더 나아가
